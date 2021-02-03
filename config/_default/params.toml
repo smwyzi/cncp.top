@@ -1,6 +1,6 @@
 logoText = "Kenshin Chen's Blog"
 logoType = "short" # long, short
-description = "Kenshin Chen's Blog"
+description = "Service Mesh, Micro Service, Cloud Native, Istio, Kubernetes, K8S"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -37,10 +37,10 @@ enableSearch = true
 enableSearchHighlight = true
 enableGoToTop = true
 enableWhoami = true
-summaryShape = "classic" # card, classic, compact
+summaryShape = "card" # card, classic, compact
 searchResultPosition = "main" # side, main
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13
+archivePaginate = 20
 paginateWindow = 1
 talksPaginate = 5
 talksGroupByDate = "2006"
@@ -76,7 +76,7 @@ enableHomeSidebarTitles = true
 enableListSidebarTitles = true
 enableToc = true
 hideToc = false
-tocFolding = true
+tocFolding = false
 tocPosition = "inner" # inner, outer
 enableTocSwitch = true
 itemsPerCategory = 5
@@ -88,13 +88,13 @@ enableSidebarPostsByOrder = false
 showPoweredBy = true
 showFeedLinks = true
 showSocialLinks = true
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 
 # service
 googleTagManager = "" # GTM-XXXXXX
 baiduAnalytics = ""
-enableBusuanzi = false
+enableBusuanzi = true
 busuanziSiteUV = true
 busuanziSitePV = true
 busuanziPagePV = true
@@ -121,8 +121,8 @@ commento = false
   clientSecret = ""       # Your client secret
 
 [utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
+  owner = "smwyzi"              # Your GitHub ID
+  repo = "cncp.top"               # The repo to store comments
 
 [gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
   owner = ""              # Your GitHub ID
@@ -173,7 +173,7 @@ commento = false
   stack-exchange = ""
   telegram = ""
   steam = ""
-  weibo = ""
+  weibo = "https://weibo.com/smwyzi/profile?rightmod=1&wvr=6&mod=personinfo"
   douban = ""
   csdn = ""
   gitlab = ""
@@ -189,9 +189,9 @@ commento = false
   google-scholar = ""
 
 [donationOptions]
-  enable = false
+  enable = true
   alipay = "" 
-  wechat = ""
+  wechat = "images/donation/wechat.png"
   paypal = ""
   patreon = ""
 

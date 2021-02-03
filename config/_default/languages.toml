@@ -3,11 +3,4 @@
   languageName = "中文"
   weight = 1
   languagedir = "ltr"
-  contentdir = "content/zh"
-
-[en]
-  title = "Kenshin Chen's Blog"
-  languageName = "English"
-  weight = 10
-  languagedir = "ltr"
-  contentdir = "content/en"
+  contentdir = "content"
