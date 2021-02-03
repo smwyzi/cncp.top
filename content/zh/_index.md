@@ -27,7 +27,7 @@ header:
     title:
       - Cloud Native
     subtitle:
-      - 云原生前线
+      - 云原生之路
     titleColor: 
     titleShadow: true
     titleFontSize: 44
