@@ -7,6 +7,7 @@ fi
 
 
 printf "\033[0;32mBuild site...\033[0m\n"
+rm -rf public/*
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 
