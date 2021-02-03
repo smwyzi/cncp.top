@@ -27,7 +27,7 @@ header:
     title:
       - Cloud Native
     subtitle:
-      - 云原生技术集散地
+      - 云原生前线
     titleColor: 
     titleShadow: true
     titleFontSize: 44
