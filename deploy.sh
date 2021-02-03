@@ -15,7 +15,7 @@ cd public
 git add .
 
 # Commit changes.
-msg="publish site $(date)"
+msg="publish site"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
@@ -23,3 +23,9 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
+
+# Push
+cd ..
+echo $pwd
+git add . 
+git commit -m "$msg"
