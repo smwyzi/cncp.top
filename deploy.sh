@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# If a command fails then the deploy stops
-set -e
-
-
 msg="publish site"
 if [ -n "$*" ]; then
 	msg="$*"
@@ -15,6 +11,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 
 printf "\033[0;32mDeploy site to GitHub Pages...\033[0m\n"
+cp CNAME public
 cd public
 git add .
 git commit -m "$msg"
