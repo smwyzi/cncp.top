@@ -6,7 +6,7 @@ defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
-summaryLength = 100
+summaryLength = 70
 buildFuture = true
 
 copyright = "&copy;{year}, All Rights Reserved"
