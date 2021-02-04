@@ -1,7 +1,7 @@
 ---
 title: "什么是 Service Mesh"
 date: 2019-04-15T20:28:10+08:00
-tags : ["Service Mesh", "Micro Service", "Cloud Native"]
+tags : ["Service Mesh", "Cloud Native"]
 categories : ["Service Mesh"]
 ---
 
@@ -103,3 +103,6 @@ Phil Calçado 的文章[《Pattern: Service Mesh》](http://philcalcado.com/2017
 
 
 历史总是惊人的相似。为了解决端到端的字节码通信问题，TCP/IP 协议诞生，让多机通信变得简单可靠；微服务时代，Service Mesh 应运而生，屏蔽了分布式系统的诸多复杂性，让开发者可以回归业务，聚焦真正的价值。
+
+## Ref
+- https://philcalcado.com/2017/08/03/pattern_service_mesh.html
