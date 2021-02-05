@@ -1,5 +1,5 @@
 ---
-title: "2021年使用 Istio 前你需要知道的一些真相"
+title: "2021年 Istio 大型“入坑”指南"
 date: 2020-12-31T23:11:11+08:00
 tags : ["Istio", "Service Mesh", "Cloud Native"]
 categories : ["Service Mesh"]
@@ -19,6 +19,8 @@ Istio 是当今云原生领域最流行的服务网格产品之一，但如果�
 ## 扩展 Istio 的成本并不低
 
 ## Istio 在集群规模较大时的性能问题
+
+## Istio 组件故障时是否有退路？
 
 ## Isito 技术架构的成熟度还没有达到预期
 
