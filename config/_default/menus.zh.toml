@@ -16,8 +16,3 @@
   url = "posts"
   weight = 20
 
-[[main]]
-  identifier = "presentation"
-  name = "演讲"
-  url = "presentation"
-  weight = 30
