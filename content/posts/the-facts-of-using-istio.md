@@ -6,7 +6,8 @@ categories : ["Service Mesh"]
 ---
 
 ## 前言
-Istio 是当今云原生领域最流行的服务网格产品之一，但如果你想要在生产环境中大规模落地，以下因素可能你是应该提前关注和思考的。
+Istio 是当今云原生领域最流行的服务网格技术之一，但如果你想要在生产环境中大规模落地，以下因素可能你是应该提前关注和思考的。
+如果你对 Service Mesh 的概念还不甚了解，可以阅读[《什么是 Service Mesh》](https://www.cncp.top/posts/what-is-service-mesh/)。
 
 ## 使用 Istio 无法做到完全对应用透明
 服务通信和治理相关的功能迁移到 Sidecar 进程中后, 应用中的 SDK 通常需要作出一些对应的改变。
